@@ -1,6 +1,16 @@
 # simple-blog
 
-> a vue.js blog export github.io
+> a vue.js blog export to github.io
+
+## write posts
+
+在`posts`目录下,编写md文件,将会自动创建json文件并同步到`static/posts/`.
+格式参考`posts/test.md`,构建的网页将会读取所写的md文件.
+
+## add music
+
+在`static/music/`目录下,添加`.mp3`文件即可,并重新构建,将会自动创建`list.json`,
+构建的网页将会播放整个目录下的音乐.
 
 ## Build Setup
 
@@ -8,7 +18,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:9090
 npm run dev
 
 # build for production with minification
