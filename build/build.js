@@ -1,4 +1,6 @@
 require('./check-versions')()
+require('./create-posts')()
+require('./create-music')()
 
 process.env.NODE_ENV = 'production'
 

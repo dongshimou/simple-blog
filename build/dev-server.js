@@ -1,4 +1,6 @@
 require('./check-versions')()
+require('./create-posts')()
+require('./create-music')()
 
 var config = require('../config')
 if (!process.env.NODE_ENV) {
