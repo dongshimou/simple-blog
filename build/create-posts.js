@@ -25,7 +25,9 @@ var post = function(filenames) {
         results.push(result);
     }
     results.sort((a, b) => {
-        return a.date < b.date;
+        if(a.date>b.date)return 1;
+        else if(a.date<b.date)return -1;
+        else return 0;
     })
     for (let i in results) {
         i = parseInt(i)
