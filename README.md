@@ -22,6 +22,16 @@
 
 nodejs >= `v6.9.1`
 
+# 升级 nodejs & npm
+```
+//nodejs
+npm install -g n
+n stable
+```
+```
+//npm
+npm i -g npm@next
+```
 ``` bash
 # install dependencies
 npm install
